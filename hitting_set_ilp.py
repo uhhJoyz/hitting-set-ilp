@@ -36,6 +36,8 @@ def write_from_sets(sets, filepath):
     output = f"{len(sets)} {len(u)} \n"
     # for each row in the B matrix
     for (idx, row) in enumerate(B):
+        # append the number corresponding to the data item
+        output += f"{idx + 1} "
         # for each item in the row
         for item in row:
             # append the item to the string
