@@ -79,7 +79,7 @@ def from_universe_sets(universe, sets):
     B = [[0 for i in range(len(universe))] for i in range(len(sets))]
     # for each set
     for (i, s) in enumerate(sets):
-        # for eat item in the set
+        # for each item in the set
         for (j, item) in enumerate(s):
             # write the item to the B matrix
             B[i][item-1] = 1
