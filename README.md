@@ -19,11 +19,11 @@ Example:
     4 0 1 0 0
     5 1 0 0 0
 
-This problem corresponds to the following sets:
+This problem corresponds to the following sets, with 5 sets and 4 tags:
 - [4]
 - [2, 3]
 - [3]
 - [2]
 - [1]
 
-The solution to this problem is [1, 2, 3, 4]. Each data item corresponds to a set, represented with 1's at the location of each tag contained within the sets.
+The solution to this problem is [1, 2, 3, 4]. Each data item corresponds to a set, represented with 1's at the location of each tag contained within the sets.  
