@@ -27,3 +27,7 @@ This problem corresponds to the following sets, with 5 sets and 4 tags:
 - [1]
 
 The solution to this problem is [1, 2, 3, 4]. Each data item corresponds to a set, represented with 1's at the location of each tag contained within the sets.  
+
+The code can also be executed from the command line using the following command:
+
+python3.8 hs_solver.py input_file.txt output_file.txt
